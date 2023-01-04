@@ -1,31 +1,31 @@
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-using namespace std;
-int main(){
-  int choice=0;
-  int tries=0;
-  tries++;
-  cout<<"You're a 16 year old kid looking to join a Football academy"<<endl<<endl;
-  cout<<"Choose a number between 1-10 to be in an academy, and we'll choose for you"<<endl<<endl;
+#include<iostream>  
+#include<cstdlib>  
+#include<ctime>  
+using namespace std;  
+int main(){  
+  int choice=0;  
+  int tries=0;  
+  tries++;  
+  cout<<"You're a 16 year old kid looking to join a Football academy"<<endl<<endl;  
+  cout<<"Choose a number between 1-10 to be in an academy, and we'll choose for you"<<endl<<endl;  
 
-  cout<<left;
-  cout<<"fc Barcelona"<<endl;
-  cout<<"fc Bayern munich"<<endl;
-  cout<<"Fc chelsea"<<endl;
-  cout<<"Manchester United"<<endl;
-   cout<<"manchester city"<<endl;
-   cout<<"RealMadrid"<<endl;
-   cout<<"Ac milan"<<endl;
-   cout<<"inter Milan"<<endl;
-   cout<<"Liverpool"<<endl;
-   cout<<"fc leipzig"<<endl<<endl;
+  cout<<left;  
+  cout<<"fc Barcelona"<<endl;  
+  cout<<"fc Bayern munich"<<endl;  
+  cout<<"Fc chelsea"<<endl;  
+  cout<<"Manchester United"<<endl;  
+   cout<<"manchester city"<<endl;  
+   cout<<"RealMadrid"<<endl;  
+   cout<<"Ac milan"<<endl;  
+   cout<<"inter Milan"<<endl;  
+   cout<<"Liverpool"<<endl;  
+   cout<<"fc leipzig"<<endl<<endl;  
 
    cout<<endl;
 
-  while (choice <= 10 && tries<2){
-     cout<<"Select your Choice"<<endl;
-    cout<<"Remember, you only have one try"<<endl;
+  while (choice <= 10 && tries<2){  
+     cout<<"Select your Choice"<<endl;  
+    cout<<"Remember, you only have one try"<<endl;  
 
      cin >> choice;
      tries++;
