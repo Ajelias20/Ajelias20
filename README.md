@@ -4,4 +4,4 @@
  **Major** : Data science  
  **Position title**:student (looking for Internship)  
  **Skills**: Decent knowledge in c++ and some python  
- -[my projects](./project)
+ -[my projects](./projects)
